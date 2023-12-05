@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang/go-execute-shell/未命名.md",
+                "file": "golang/go-execute-shell/go 执行服务器端 shell 脚本.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "golang/go-execute-shell/未命名.md",
+                "file": "golang/go-execute-shell/go 执行服务器端 shell 脚本.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "golang/go-execute-shell/未命名.md",
+                "file": "golang/go-execute-shell/go 执行服务器端 shell 脚本.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "golang/go-execute-shell/未命名.md"
+                "file": "golang/go-execute-shell/go 执行服务器端 shell 脚本.md"
               }
             }
           },
@@ -166,9 +166,9 @@
   },
   "active": "1b1a0e2d12acb08e",
   "lastOpenFiles": [
-    "golang/go-execute-shell/go 从服务器端下载文件.md",
-    "golang/go-execute-shell/未命名.md",
     "golang/go-execute-shell/go 上传文件到服务器.md",
+    "golang/go-execute-shell/go 执行服务器端 shell 脚本.md",
+    "golang/go-execute-shell/go 从服务器端下载文件.md",
     "golang/zaplog/go-gin 中使用 zap 记录日志.md",
     "golang/go-execute-shell",
     "nginx/Nginx 部署前端项目.md",
