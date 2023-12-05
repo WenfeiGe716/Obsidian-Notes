@@ -166,8 +166,9 @@
   },
   "active": "1b1a0e2d12acb08e",
   "lastOpenFiles": [
-    "golang/zaplog/go-gin 中使用 zap 记录日志.md",
+    "golang/go-execute-shell/go 执行服务器端 shell 脚本.md",
     "golang/go-execute-shell/go 上传文件到服务器.md",
+    "golang/zaplog/go-gin 中使用 zap 记录日志.md",
     "golang/go-execute-shell",
     "nginx/Nginx 部署前端项目.md",
     "golang/zaplog",

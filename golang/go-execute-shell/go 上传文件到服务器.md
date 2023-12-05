@@ -42,3 +42,27 @@ func UploadFile(username, password, host string, port int, localFilePath, remote
    return uploadFile(sftpClient, localFilePath, remotePath)  
 }
 ```
+
+第四步 uploadFile 方法
+
+```go
+ func uploadFile(sftpClient *sftp.Client, localFilePath string, remotePath string) error {  
+   srcFile, err := os.Open(localFilePath)  
+   if err != nil {  
+      Logger.Errorf("open file %s error: %s\n", localFilePath, err)  
+      return fmt.Errorf("open file %s error: %s", localFilePath, err)  
+   }  
+   defer srcFile.Close()  
+  
+   remoteFileName := path.Base(localFilePath)  
+   dstFile, err := sftpClient.Create(path.Join(remotePath, remoteFileName))  
+   if err != nil {  
+      Logger.Errorf("create SFTP client error: %s\n", path.Join(remotePath, remoteFileName))  
+      return fmt.Errorf("create SFTP client error: %s", path.Join(remotePath, remoteFileName))  
+   }  
+   defer dstFile.Close()  
+  
+   _, err = io.Copy(dstFile, srcFile)  
+   return err  
+}
+```
