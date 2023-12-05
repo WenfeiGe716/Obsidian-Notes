@@ -17,7 +17,7 @@ func NewSSHClient(username, password, host string, port int) (*ssh.Client, error
 }
 ```
 
-第二步建立SFTP连接
+## 第二步建立SFTP连接
 
 ```go
 func newSFTPSession(username, password, host string, port int) (*sftp.Client, error) {  
@@ -30,7 +30,8 @@ func newSFTPSession(username, password, host string, port int) (*sftp.Client, er
 }
 ```
 
-第三步上传文件
+## 第三步上传文件
+
 ```go
 func UploadFile(username, password, host string, port int, localFilePath, remotePath string) error {  
    sftpClient, err := newSFTPSession(username, password, host, port)  
@@ -43,7 +44,7 @@ func UploadFile(username, password, host string, port int, localFilePath, remote
 }
 ```
 
-第四步 uploadFile 方法
+## 第四步 uploadFile 方法
 
 ```go
  func uploadFile(sftpClient *sftp.Client, localFilePath string, remotePath string) error {  

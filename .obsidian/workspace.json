@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "golang/go-execute-shell/go 执行服务器端 shell 脚本.md",
+                "file": "golang/go-execute-shell/go 从服务器端下载文件.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "golang/go-execute-shell/go 执行服务器端 shell 脚本.md",
+                "file": "golang/go-execute-shell/go 从服务器端下载文件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "golang/go-execute-shell/go 执行服务器端 shell 脚本.md",
+                "file": "golang/go-execute-shell/go 从服务器端下载文件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "golang/go-execute-shell/go 执行服务器端 shell 脚本.md"
+                "file": "golang/go-execute-shell/go 从服务器端下载文件.md"
               }
             }
           },
@@ -164,7 +164,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1b1a0e2d12acb08e",
+  "active": "e2a1ebb2ac9c1a00",
   "lastOpenFiles": [
     "golang/go-execute-shell/go 上传文件到服务器.md",
     "golang/go-execute-shell/go 执行服务器端 shell 脚本.md",
@@ -173,15 +173,15 @@
     "golang/go-execute-shell",
     "nginx/Nginx 部署前端项目.md",
     "golang/zaplog",
-    "golang/docker/Go 打包成 docker 镜像.md",
+    "docker/Go 打包成 docker 镜像.md",
     "nginx",
-    "golang/docker/如何制作开启 SSH 服务的 docker 镜像.md",
+    "docker/如何制作开启 SSH 服务的 docker 镜像.md",
     "golang/go-gin/go-gin 配置 Swagger 接口文档.md",
     "linux/通过命令查看服务器基本信息.md",
     "未命名.canvas",
     "golang/go-gin",
     "golang",
     "linux",
-    "golang/docker"
+    "docker"
   ]
 }
