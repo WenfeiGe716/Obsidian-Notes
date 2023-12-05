@@ -1,4 +1,5 @@
-第一步 创建zap工具类
+## 第一步 创建zap工具类
+
 ```go
 import (  
    "fmt"  
@@ -25,10 +26,12 @@ func SetupLogger() error {
    return nil  
 }  
   
-// GetInitLogger get loggerfunc GetInitLogger(filepath, infofilename, warnfilename, debugfilename, fileext string) (*zap.SugaredLogger, error) {  
+// GetInitLogger get logger
+func GetInitLogger(filepath, infofilename, warnfilename, debugfilename, fileext string) (*zap.SugaredLogger, error) {  
    encoder := getEncoder()  
    //两个判断日志等级的interface  
-   //warnlevel以下属于info   infoLevel := zap.LevelEnablerFunc(func(lvl zapcore.Level) bool {  
+   //warnlevel以下属于info   
+   infoLevel := zap.LevelEnablerFunc(func(lvl zapcore.Level) bool {  
       return lvl < zapcore.WarnLevel  
    })  
    //warnlevel及以上属于warn  
@@ -91,7 +94,13 @@ func getWriter(filename, fileext string) (io.Writer, error) {
       rotatelogs.WithRotationTime(time.Hour*24),  
    )  
    //供测试用，保存30天内的日志，每1分钟(整点)分割一次日志  
-   //hook, err := rotatelogs.New(   // filename+"_%Y%m%d%H%M.log",   // rotatelogs.WithLinkName(filename),   // rotatelogs.WithMaxAge(time.Hour*24*30),   // rotatelogs.WithRotationTime(time.Minute*1),   //)   if err != nil {  
+   //hook, err := rotatelogs.New(   
+   // filename+"_%Y%m%d%H%M.log",   
+   // rotatelogs.WithLinkName(filename),   
+   // rotatelogs.WithMaxAge(time.Hour*24*30),   
+   // rotatelogs.WithRotationTime(time.Minute*1),   
+   //)   
+   if err != nil {  
       //panic(err)  
       return nil, err  
    }  
@@ -120,7 +129,8 @@ func getWriter(filename, fileext string) (io.Writer, error) {
 // }  
 //}  
   
-// GinRecovery recover掉项目可能出现的panic，并使用zap记录相关日志func GinRecovery(stack bool) gin.HandlerFunc {  
+// GinRecovery recover掉项目可能出现的panic，并使用zap记录相关日志
+func GinRecovery(stack bool) gin.HandlerFunc {  
    return func(c *gin.Context) {  
       defer func() {  
          if err := recover(); err != nil {  
@@ -166,7 +176,8 @@ func getWriter(filename, fileext string) (io.Writer, error) {
 }
 ```
 
-第二步 main 方法中注册zap相关中间件
+## 第二步 main 方法中注册zap相关中间件
+
 ```go
 // 注册zap相关中间件  
 // 将 gin 日志也记录
