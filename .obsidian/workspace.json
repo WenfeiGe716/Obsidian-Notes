@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "7f74544ef6e76603",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc2da52ebe048dc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55d60150dbf25513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker/如何制作开启 SSH 服务的 docker 镜像.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01983bd4687bf190",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker/如何制作开启 SSH 服务的 docker 镜像.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "87a0e89b3846b2fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "0aaad9ba34b95210",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2a1ebb2ac9c1a00",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6086456ebb3dde0a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3b002977f2f5b4c2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.5
+  },
+  "right": {
+    "id": "8fd75a0e1856187d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0967c2ed1621c7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b615a810ee2b5a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docker/如何制作开启 SSH 服务的 docker 镜像.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a37ea98c70e62832",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docker/如何制作开启 SSH 服务的 docker 镜像.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ad61cd162d1c9f5a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "472c63f9955db77b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docker/如何制作开启 SSH 服务的 docker 镜像.md"
+              }
+            }
+          },
+          {
+            "id": "8e4a48b1e83fd138",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8967b7a2906966df",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-day-planner:Timeline": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "01983bd4687bf190",
+  "lastOpenFiles": [
+    "golang/go-gin/go-gin 配置 Swagger 接口文档.md",
+    "docker/如何制作开启 SSH 服务的 docker 镜像.md",
+    "linux/通过命令查看服务器基本信息.md",
+    "未命名.canvas",
+    "golang/go-gin",
+    "golang",
+    "linux",
+    "docker"
+  ]
+}
