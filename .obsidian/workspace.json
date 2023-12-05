@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nginx/Nginx 部署前端项目.md",
+                "file": "golang/zaplog/go-gin 中使用 zap 记录日志.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx/Nginx 部署前端项目.md",
+                "file": "golang/zaplog/go-gin 中使用 zap 记录日志.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nginx/Nginx 部署前端项目.md",
+                "file": "golang/zaplog/go-gin 中使用 zap 记录日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nginx/Nginx 部署前端项目.md"
+                "file": "golang/zaplog/go-gin 中使用 zap 记录日志.md"
               }
             }
           },
@@ -203,8 +203,10 @@
   },
   "active": "afbd9c332e7bf98b",
   "lastOpenFiles": [
-    "docker/Go 打包成 docker 镜像.md",
     "nginx/Nginx 部署前端项目.md",
+    "golang/zaplog/go-gin 中使用 zap 记录日志.md",
+    "golang/zaplog",
+    "docker/Go 打包成 docker 镜像.md",
     "nginx",
     "docker/如何制作开启 SSH 服务的 docker 镜像.md",
     "golang/go-gin/go-gin 配置 Swagger 接口文档.md",
