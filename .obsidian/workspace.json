@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go 打包成 docker 镜像.md",
+                "file": "docker/Go 打包成 docker 镜像.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go 打包成 docker 镜像.md",
+                "file": "docker/Go 打包成 docker 镜像.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go 打包成 docker 镜像.md",
+                "file": "docker/Go 打包成 docker 镜像.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Go 打包成 docker 镜像.md"
+                "file": "docker/Go 打包成 docker 镜像.md"
               }
             }
           },
@@ -189,10 +189,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7c00ed766fc11281",
+  "active": "e2a1ebb2ac9c1a00",
   "lastOpenFiles": [
     "docker/如何制作开启 SSH 服务的 docker 镜像.md",
-    "Go 打包成 docker 镜像.md",
+    "docker/Go 打包成 docker 镜像.md",
     "golang/go-gin/go-gin 配置 Swagger 接口文档.md",
     "linux/通过命令查看服务器基本信息.md",
     "未命名.canvas",
