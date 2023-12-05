@@ -13,7 +13,7 @@
 
 ## 2、docker-compose.yaml
 
-```docker-co
+```yaml
  version: '3.8'  
  ​  
  networks:  
@@ -40,11 +40,11 @@
 
 ## 3、lnzh.conf
 
- server {  
+```
+server {  
          listen 80 default_server;  
          #listen 443 ssl;  
-         # server_name ccf.lab.cetcxl.com;  
- ​  
+         # server_name ccf.lab.cetcxl.c
          #ssl_certificate     /etc/nginx/ssl/ccf.lab.cetcxl.com.pem;  
          #ssl_certificate_key /etc/nginx/ssl/ccf.lab.cetcxl.com.key;  
  ​  
@@ -102,9 +102,11 @@
              root   /usr/share/nginx/html/dist;  
          }  
  }
+```
 
 ## 4、nginx.conf
 
+```
  user  root; # 主机用户  
  worker_processes  auto;  
  ​  
@@ -154,7 +156,10 @@
  ​  
      include /etc/nginx/conf.d/*.conf;  
  }
+```
 
 5、运行
 
+```shell
  docker-compose up -d
+```
