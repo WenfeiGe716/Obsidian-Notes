@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "afbd9c332e7bf98b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nginx/Nginx 部署前端项目.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/Go 打包成 docker 镜像.md",
+                "file": "nginx/Nginx 部署前端项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker/Go 打包成 docker 镜像.md",
+                "file": "nginx/Nginx 部署前端项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docker/Go 打包成 docker 镜像.md"
+                "file": "nginx/Nginx 部署前端项目.md"
               }
             }
           },
@@ -189,10 +201,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e2a1ebb2ac9c1a00",
+  "active": "afbd9c332e7bf98b",
   "lastOpenFiles": [
-    "docker/如何制作开启 SSH 服务的 docker 镜像.md",
     "docker/Go 打包成 docker 镜像.md",
+    "nginx/Nginx 部署前端项目.md",
+    "nginx",
+    "docker/如何制作开启 SSH 服务的 docker 镜像.md",
     "golang/go-gin/go-gin 配置 Swagger 接口文档.md",
     "linux/通过命令查看服务器基本信息.md",
     "未命名.canvas",

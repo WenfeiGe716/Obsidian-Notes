@@ -29,6 +29,7 @@
 ```
 -t 构建的镜像的标签名
 注意：不要漏掉 .
+
 3、查看存在的镜像
 ```shell
  docker image ls
@@ -39,7 +40,7 @@
 ```
 ### 方法二 分阶段构建（小）
 1、编写 Dockerfile
-```
+``` sheel
  # 编译阶段  
  FROM golang:1.15.7-alpine3.13 AS buildStage  
  WORKDIR /go/src # 设置工作目录   
@@ -52,10 +53,17 @@
  ENTRYPOINT ./main  
 ```
 2、构建镜像
+```shell
 docker image build -t build-go-image:v2.0 .
+```
 -t 构建的镜像的标签名
 注意：不要漏掉 .
+
 3、查看存在的镜像
+```shell
 docker image ls
+```
 4、执行镜像
+```shell
 docker run -it --rm build-go-image:v2.0
+```
